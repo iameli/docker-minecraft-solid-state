@@ -19,4 +19,6 @@ WORKDIR /minecraft
 ADD startmc.sh startmc.sh
 RUN chmod 755 ./startmc.sh
 
+EXPOSE 25565
+
 CMD ./startmc.sh
